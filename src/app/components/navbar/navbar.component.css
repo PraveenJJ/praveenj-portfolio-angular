@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #9295991c; /* Adjust based on your theme */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .nav-container {
+    text-align: center;
+  }
+  
+  .logo-image {
+    height: 40px; /* Adjust the height based on your design */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
