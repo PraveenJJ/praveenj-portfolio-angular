@@ -6,4 +6,17 @@ body {
   box-sizing: border-box; /* Ensures consistent box-sizing */
   width: 100%;
   height: 100%;
+  font-family: 'Helvetica';
+}
+
+@font-face {
+  font-family: 'Helvetica-Content'; /* Replace with your font name */
+  src: url('assets/fonts/helvetica-255/Helvetica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica-Title'; /* Replace with your font name */
+  src: url('assets/fonts/helvetica-255/helvetica-compressed-5871d14b6903a.otf') format('truetype');
 }
