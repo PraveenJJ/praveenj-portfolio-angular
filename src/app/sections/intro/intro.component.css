@@ -2,9 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0px;
+  padding: 200px 0px;
   /* height: 90vh; */
-  background-color: #F2F2F2;
+  /* background-color: #F2F2F2; */
+  background: linear-gradient(to right, rgba(223, 226, 228, 0.8), rgba(210, 222, 233, 0.8)), url('/assets/images/intro/common-bg.svg');
+  /* background-repeat: repeat;
+  background-size: 400px; */
 }
 
 .intro-details {
@@ -19,7 +22,7 @@
   margin-bottom: 1.5rem;
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 4rem ;
+  font-size: 3rem;
   font-style: normal;
   letter-spacing: 3px;
 }
@@ -53,7 +56,7 @@
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background-color: #007bff; /* Adjust button color */
+  background-color: #111111; /* Adjust button color */
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -61,7 +64,7 @@
 }
 
 .resume-button:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+  background-color: #7843E9; /* Darker shade on hover */
 }
 
 .intro-scroll {

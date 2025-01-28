@@ -1,18 +1,41 @@
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #ffffff; 
   box-shadow: 0 10px 100px rgba(0,0,0,0.1);
   position: relative;
+  text-transform: uppercase;
+  padding: 35px 70px;
+  font-weight: bold;
+  color: #111111;
 }
 
-.nav-container {
-  text-align: center;
+/* Navigation links on the right */
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.logo-image {
-  height: 80px; 
-  width: auto;
-  padding: 10px 0px;
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  transition: color 0.1s;
+  padding: 30px;
+}
+
+.nav-links a:hover {
+  color: #7843E9;
+  cursor: pointer;
+}
+
+/* Active link */
+.active {
+  color: #7843E9;
+  border-bottom: 2px solid #7843E9;
 }
